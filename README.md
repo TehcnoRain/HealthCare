@@ -17,9 +17,10 @@ This repository is dedicated to a range of data-driven healthcare projects aimed
 
 #### Setup and Dependencies:
 Before running the project, ensure the following Python libraries are installed:
-```bash pip3 install --user pandas numpy scikit-learn xgboost matplotlib seaborn imbalanced-learn joblib
-
-### Key Activities
+```
+pip3 install --user pandas numpy scikit-learn xgboost matplotlib seaborn imbalanced-learn joblib
+```
+### Key Activities:
 - **Data Preprocessing**: Techniques include imputing missing values, encoding categorical features, and addressing data imbalances.
 - **Model Development**: Use of various machine learning models (e.g., Random Forest, SVM) with and without hyperparameter tuning via GridSearchCV.
 - **Feature Selection and Evaluation**: Application of statistical tests and recursive feature elimination to pinpoint significant features, assessing model performance through precision, recall, and accuracy metrics.
